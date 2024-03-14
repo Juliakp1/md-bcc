@@ -1,0 +1,26 @@
+
+Bicho de estimação:
+	Pet(_id_, nome, especie, raca, idade, dono)
+	
+-> idade não alteraria com o tempo (problema!)
+
+----------------------
+
+Alunos do curso:
+	Aluno(_matricula_, nome, cpf, dataNascimento, semestre, curso)
+	
+-> semestre não alteraria com o tempo (problema!)
+
+----------------------
+
+Cardapio do restaurante:
+	Menu(_prato_, custo, lactose, gluten)
+	
+----------------------
+
+Relações entre tabelas:
+	ZooEnclosure(_id_, *animal_id*, localizacao, tamanho)
+	Animal(_id_, especie, clima, dieta)
+
+_underline_ = PK = Primary key
+*stars* = FK = Foreign key
